@@ -38,7 +38,7 @@ public class Main {
                 // Set request method
                 connection.setRequestMethod("POST");
 
-                // Set headers
+                // Set header
                 connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 
                 // Enable output and disable caching
